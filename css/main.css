@@ -94,6 +94,7 @@ header .inner .add-more {
   top: 50px;
   right: 70px;
   display: none;
+  z-index: 1;
 }
 header .inner .add-more:after {
   border-top: 0 solid #24292f;
@@ -123,6 +124,7 @@ header .inner .profile-more {
   right: 20px;
   width: 150px;
   display: none;
+  z-index: 1;
 }
 header .inner .profile-more:after {
   border-top: 0 solid #24292f;
@@ -207,6 +209,7 @@ main aside {
   max-width: 500px;
   height: 100vh;
   position: sticky;
+  top: 0;
   background-color: #fff;
 }
 main aside .inner {
@@ -914,24 +917,24 @@ main .center-content .main-content .inner .tips p {
 main .center-content .main-content .inner .tips p span {
   font-size: 12px;
 }
-main .center-content .main-content .inner footer {
+main .center-content .main-content .inner .footer {
   display: flex;
   color: #57606A;
   font-size: 12px;
 }
-main .center-content .main-content .inner footer .logo {
+main .center-content .main-content .inner .footer .logo {
   margin-right: 118px;
 }
-main .center-content .main-content .inner footer .logo img {
+main .center-content .main-content .inner .footer .logo img {
   width: 24px;
   margin-right: 8px;
 }
-main .center-content .main-content .inner footer .links {
+main .center-content .main-content .inner .footer .links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 50px;
 }
-main .center-content .main-content .inner footer .links ul li a {
+main .center-content .main-content .inner .footer .links ul li a {
   line-height: 1.5;
 }
 main .changes {
